@@ -1,0 +1,83 @@
+.buyNOWpage{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+.buyNOWcontainer{
+    position: fixed;
+    top: 50%;
+    max-height: 80%;
+    max-width: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+
+  .buyNOWcontainer h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .buyNOWcontainer p {
+    margin-bottom: 10px;
+  }
+
+  .buyNOWcontainer label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  .buyNOWcontainer input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buyNOWcontainer select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .buyNOWcontainer button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buyNOWcontainer button:first-of-type {
+    background-color: #4caf50;
+    color: white;
+    margin-right: 4%;
+  }
+  
+  .buyNOWcontainer button:last-of-type {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .buyNOWcontainer button:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
